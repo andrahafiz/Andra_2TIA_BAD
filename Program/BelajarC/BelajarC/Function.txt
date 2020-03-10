@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BelajarC
+{
+    class Program
+    {
+        private static string helloClass = "Hello, Class";
+
+        static void Main(string[] args)
+        {
+            string helloLocal = "Hello Local";
+            Console.WriteLine(helloLocal);
+            Console.WriteLine(Program.helloClass);
+            TestFunction();
+        }
+
+        static void TestFunction()
+        {
+            Console.WriteLine("Pemanggilan variabel dari function TestFunction: " + Program.helloClass);
+            Console.ReadLine();
+
+        }
+    }
+}

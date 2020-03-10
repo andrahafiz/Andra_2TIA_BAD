@@ -1,0 +1,7 @@
+D:\Andra_2TIA\Program\BelajarC\BelajarC\bin\Debug\BelajarC.exe.config
+D:\Andra_2TIA\Program\BelajarC\BelajarC\bin\Debug\BelajarC.exe
+D:\Andra_2TIA\Program\BelajarC\BelajarC\bin\Debug\BelajarC.pdb
+D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.csprojAssemblyReference.cache
+D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.csproj.CoreCompileInputs.cache
+D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.exe
+D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.pdb

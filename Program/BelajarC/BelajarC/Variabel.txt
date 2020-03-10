@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BelajarC
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String namadepan = "Budi";
+            String namaakhir = "Anto";
+
+            Console.WriteLine("Nama : " + namadepan + " " + namaakhir);
+
+            Console.WriteLine("Masukan Nama depan : ");
+
+            namadepan = Console.ReadLine();
+
+            Console.WriteLine("Input nama baru : " + namadepan + " " + namaakhir);
+            Console.ReadLine();
+
+
+
+        }
+    }
+}
