@@ -20,6 +20,7 @@ namespace BelajarC
             foreach (string name in names)
                 Console.WriteLine("Halo, " + name);
         }
+        //ini dari asus tuf
 
     }
 }
