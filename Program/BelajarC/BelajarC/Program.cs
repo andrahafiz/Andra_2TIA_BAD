@@ -8,19 +8,17 @@ namespace BelajarC
 {
     class Program
     {
-        static void Main (string[] args)
+        static void Main(string[] args)
         {
             HaloTeman(0);
             HaloTeman(2, "Ani", "Toni", "Budi");
             Console.ReadKey();
-        }   
+        }
 
         static void HaloTeman(int parameterTambahan, params string[] names)
         {
             foreach (string name in names)
                 Console.WriteLine("Halo, " + name);
         }
-        //ini dari asus tuf
-
     }
 }

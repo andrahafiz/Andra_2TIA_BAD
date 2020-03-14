@@ -5,3 +5,10 @@ D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.csprojAssemblyReferen
 D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.csproj.CoreCompileInputs.cache
 D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.exe
 D:\Andra_2TIA\Program\BelajarC\BelajarC\obj\Debug\BelajarC.pdb
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\bin\Debug\BelajarC.exe.config
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\bin\Debug\BelajarC.exe
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\bin\Debug\BelajarC.pdb
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\obj\Debug\BelajarC.csprojAssemblyReference.cache
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\obj\Debug\BelajarC.csproj.CoreCompileInputs.cache
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\obj\Debug\BelajarC.exe
+D:\2 TI A\Andra_2TIA_BAD\Program\BelajarC\BelajarC\obj\Debug\BelajarC.pdb
