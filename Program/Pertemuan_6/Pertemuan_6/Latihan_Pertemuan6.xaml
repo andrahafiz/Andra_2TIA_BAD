@@ -1,0 +1,47 @@
+﻿<Window x:Class="Pertemuan_6.Latihan_Pertemuan6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pertemuan_6"
+        mc:Ignorable="d"
+        Title="Latihan_Pertemuan6" Height="450" Width="400
+        " Background="#FFD7D7D7">
+    <StackPanel Margin="20" >
+        <Label FontWeight="Bold">Hobi apa?</Label>
+        <StackPanel Margin="10,5">
+           <StackPanel Margin="20,5">
+                <CheckBox Name="cbBerenang" 
+                          >Berenang</CheckBox>
+                <CheckBox Name="cbFutsal" IsChecked="True" 
+                          >Futsal</CheckBox>
+                <CheckBox Name="cbBacaNovel" >Membaca Novel</CheckBox>
+                <CheckBox Name="cbAgama" >Kajian Al-quran</CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <Label FontWeight="Bold">Minuman kesukaan anda?</Label>
+        <StackPanel Margin="10,5">
+            <StackPanel Margin="20,5">
+                <CheckBox Name="cbPokat" >Jus Pokat
+                </CheckBox>
+                <CheckBox Name="cbMangga" IsChecked="True" >Jus Mangga</CheckBox>
+                <CheckBox Name="cbSusu" >Susu</CheckBox>
+                <CheckBox Name="cbSkoteng" >Skoteng</CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <Label FontWeight="Bold">Makanan kesukaan anda?</Label>
+        <StackPanel Margin="10,5">
+            <StackPanel Margin="20,5">
+                <CheckBox Name="cbSoto"
+                          >Soto
+                </CheckBox>
+                <CheckBox Name="cbayam" IsChecked="True" 
+                          >Mie Ayam</CheckBox>
+                <CheckBox Name="cbBurger" >Burger</CheckBox>
+                <CheckBox Name="cbGorengan" >Gorengan</CheckBox>
+            </StackPanel>
+        </StackPanel>
+        <Button Content="Tampilkan"  VerticalAlignment="Top" Click="Button_Click" Height="30" HorizontalAlignment="Left" Width="141" Margin="115,10,0,0" Foreground="Black" FontWeight="Bold" Background="#FF737373"/>
+
+    </StackPanel>
+</Window>

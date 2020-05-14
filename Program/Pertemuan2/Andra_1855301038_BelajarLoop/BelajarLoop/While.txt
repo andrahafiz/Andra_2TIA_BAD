@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BelajarLoop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int angka = 0;
+            while (angka < 5)
+            {
+                Console.WriteLine("Angka ke-" + angka);
+                angka = angka + 1;
+            }
+            Console.ReadLine();
+        }
+    }
+}

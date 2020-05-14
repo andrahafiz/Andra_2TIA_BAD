@@ -1,0 +1,19 @@
+﻿<Window x:Class="BelajarPassValue.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BelajarPassValue"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="68,55,0,0" TextWrapping="Wrap" Text="Masukan Nama" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNama" HorizontalAlignment="Left" Height="23" Margin="200,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="68,110,0,0" TextWrapping="Wrap" Text="Tempat Lahir" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLahir" HorizontalAlignment="Left" Height="23" Margin="200,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+
+        <Button x:Name="btnKlik" Content="Kirim Data" Height="30" Width="200" HorizontalAlignment="Center" Click="BtnKlik_Click"/>
+
+    </Grid>
+</Window>

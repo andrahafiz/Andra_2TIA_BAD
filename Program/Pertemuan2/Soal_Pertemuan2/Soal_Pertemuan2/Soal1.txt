@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Soal_Pertemuan2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int angka; //membuat sebuah variabel
+
+            Console.WriteLine("Silahkan inputkan angka antara 0 dan 10 : ");
+            angka = int.Parse(Console.ReadLine());
+
+            if (angka > 9 || angka < 1 )
+                Console.WriteLine("Hi! Angka yang diinputkan harus antara 0 dan 10");
+            else
+                Console.WriteLine("Mantul Gan!!!");
+
+            Console.ReadLine();
+        }
+    }
+}

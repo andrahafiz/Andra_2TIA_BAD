@@ -1,0 +1,30 @@
+﻿<Window x:Class="Pertemuan6.Latihan1_Pertemuan6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pertemuan6"
+        mc:Ignorable="d"
+       Title="CheckBoxSample" Height="140" Width="250">
+    <StackPanel Margin="10">
+        <Label FontWeight="Bold">Application Options</Label>
+        <CheckBox>
+            <TextBlock>
+                Enable feature <Run Foreground="Green" FontWeight="Bold">ABC</Run>
+            </TextBlock>
+        </CheckBox>
+        <CheckBox IsChecked="True">
+            <WrapPanel>
+                <TextBlock>
+                   Enable feature <Run  FontWeight="Bold">XYZ</Run>
+                </TextBlock>
+                <Image Source="D:\2 TI A\Andra_2TIA_BAD\Program\Pertemuan6\android.png" Width="16" Height="16" Margin="5,0"/>
+            </WrapPanel>
+        </CheckBox>
+        <CheckBox>
+            <TextBlock>
+                Enable feature <Run Foreground="Blue" TextDecorations="Underline" FontWeight="Bold">WWW</Run>
+            </TextBlock>
+        </CheckBox>
+    </StackPanel>
+</Window>

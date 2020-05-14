@@ -1,0 +1,26 @@
+﻿<Window x:Class="Pertemuan8.Latihan4_Pertemuan7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pertemuan8"
+        mc:Ignorable="d"
+        Title="Color" Height="279" Width="440">
+    <Grid Name="A" >
+
+
+        <RadioButton  Content="Merah" HorizontalAlignment="Left" Margin="64,72,0,0"
+                     VerticalAlignment="Top" Checked="RadioButton_Checked_1"  />
+
+        <RadioButton Content="Abu-abu" HorizontalAlignment="left" Margin="282,72,0,0"
+                     VerticalAlignment="Top" Checked="RadioButton_Checked_4"/>
+        <RadioButton Content="Kuning" HorizontalAlignment="Left" Margin="64,116,0,0"
+            VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <RadioButton  Content="Hijau" HorizontalAlignment="left" Margin="282,116,0,0"
+            VerticalAlignment="Top" Checked="RadioButton_Checked_5"/>
+        <RadioButton Content="Biru" HorizontalAlignment="Left" Margin="64,156,0,0"
+            VerticalAlignment="Top" Checked="RadioButton_Checked_3"/>
+        <RadioButton  Content="Putih" HorizontalAlignment="left" Margin="282,156,0,0"
+            VerticalAlignment="Top" Checked="RadioButton_Checked_6"/>
+    </Grid>
+</Window>

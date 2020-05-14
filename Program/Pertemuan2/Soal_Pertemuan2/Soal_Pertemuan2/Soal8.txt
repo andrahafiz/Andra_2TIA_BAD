@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BelajarList
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Versi 1
+            List<String> ListNama = new List<string>()
+            { "Budi","Hasan","Santoso"};
+            foreach(string i in ListNama)
+                Console.WriteLine("Isi dari list : " + i);
+            Console.WriteLine("Total isi list 1 : " + ListNama.Count + "\n");
+
+            //Versi 2
+            var angka1 = new List<int>();
+            angka1.Add(2);
+            angka1.Add(3);
+            angka1.Add(5);
+            angka1.Add(7);
+            foreach (int a in angka1)
+                Console.WriteLine("Isi dari list : " + a);
+            Console.WriteLine("Total isi list 2 : " + angka1.Count +"\n");
+
+            //Versi 3
+            var angka2 = new List<int>() { 2, 3, 5, 7 };
+            foreach (int b in angka2)
+                Console.WriteLine("Isi dari list : " + b);
+            Console.WriteLine("Total isi list 3: " + angka2.Count);
+
+            Console.ReadLine();
+
+        }
+    }
+}

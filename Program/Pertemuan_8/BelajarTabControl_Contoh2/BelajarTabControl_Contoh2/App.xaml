@@ -1,0 +1,9 @@
+﻿< x:Class="BelajarTabControl_Contoh2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BelajarTabControl_Contoh2"
+             StartupUri="BelajarTabControl3.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

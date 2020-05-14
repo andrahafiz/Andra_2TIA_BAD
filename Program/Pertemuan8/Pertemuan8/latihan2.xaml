@@ -1,0 +1,20 @@
+﻿<Window x:Class="Pertemuan8.latihan2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pertemuan8"
+        mc:Ignorable="d"
+        Title="latihan2" Height="230" Width="250">
+    <StackPanel Margin="10">
+        <Label FontWeight="Bold">Apa kamu siap belajar BAD?</Label>
+        <RadioButton GroupName="ready">Iya</RadioButton>
+        <RadioButton GroupName="ready">Tidak</RadioButton>
+        <RadioButton GroupName="ready" IsChecked="True">Mungkin</RadioButton>
+
+        <Label FontWeight="Bold">Kamu lelaki atau perempuan yaa?</Label>
+        <RadioButton GroupName="sex">Laki-laki</RadioButton>
+        <RadioButton GroupName="sex">Perempuan</RadioButton>
+        <RadioButton GroupName="sex" IsChecked="True">Maaf, kurang ngerti</RadioButton>
+    </StackPanel>
+</Window>

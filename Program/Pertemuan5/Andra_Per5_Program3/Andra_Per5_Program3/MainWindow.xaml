@@ -1,0 +1,41 @@
+﻿<Window x:Class="Andra_Per5_Program3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Andra_Per5_Program3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="600">
+    <Grid>
+        <Canvas x:Name="LayoutRoot" Background="White">
+            <!-- Create a line in XAML -->
+            <Line Canvas.Left="10" Canvas.Top="20"
+                  X1="0" Y1="0"
+                  X2="250" Y2="0"
+                  Stroke="Red"
+                  StrokeThickness="2" />
+            <!-- Create a Rectangle in XAML -->
+            <Rectangle Canvas.Left="10" Canvas.Top="40"
+                       Width="200"
+                       Height="100"
+                       Fill="Blue"
+                       Stroke="Black"
+                       StrokeThickness="2" />
+            <!-- Create an Ellipse in XAML -->
+            <Ellipse Canvas.Left="10" Canvas.Top="150"
+                     Width="200"
+                     Height="100"
+                     Fill="Yellow"
+                     Stroke="Black"
+                     StrokeThickness="2" />
+            <!-- Create a polygon -->
+            <Polygon Canvas.Left="200" Canvas.Top="0"
+                     Points="50, 100 200,100 200, 200 300, 30"
+                     Stroke="Black" StrokeThickness="4"
+                     Fill="LightGreen"/>
+            <!-- Create a Polyline in XAML -->
+            <Polyline Canvas.Left="250" Canvas.Top="100"
+                     Points="10,100 100,200 200,30 250,200 200,150" Stroke="Black" StrokeThickness="4"/>
+        </Canvas>
+    </Grid>
+</Window>

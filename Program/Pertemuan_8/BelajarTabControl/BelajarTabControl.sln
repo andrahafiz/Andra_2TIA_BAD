@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelajarTabControl", "BelajarTabControl\BelajarTabControl.csproj", "{817F20E4-783F-4478-9E41-63B2D6ABCF9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{817F20E4-783F-4478-9E41-63B2D6ABCF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817F20E4-783F-4478-9E41-63B2D6ABCF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817F20E4-783F-4478-9E41-63B2D6ABCF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817F20E4-783F-4478-9E41-63B2D6ABCF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B894CF73-C8CE-4103-A321-2CED3AC53818}
+	EndGlobalSection
+EndGlobal

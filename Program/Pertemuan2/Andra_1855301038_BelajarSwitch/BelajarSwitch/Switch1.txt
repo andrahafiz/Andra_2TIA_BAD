@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BelajarSwitch
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = 1;
+            switch (number)
+            {
+                case 0:
+                    Console.WriteLine("Ini angka 0");
+                    break;
+                case 1:
+                    Console.WriteLine("Ini angka 1");
+                    break;
+            }
+            Console.ReadLine();
+        }
+    }
+}
