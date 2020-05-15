@@ -83,6 +83,16 @@ namespace Project_UTS_v1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background_content1 {
+            get {
+                object obj = ResourceManager.GetObject("background_content1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bangku_off {
             get {
                 object obj = ResourceManager.GetObject("bangku-off", resourceCulture);

@@ -61,11 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackgroundForm.cs">
+    <Compile Include="FormPembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BackgroundForm.Designer.cs">
-      <DependentUpon>BackgroundForm.cs</DependentUpon>
+    <Compile Include="FormPembayaran.Designer.cs">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
     </Compile>
     <Compile Include="Bangku.cs" />
     <Compile Include="Form_Film.cs">
@@ -80,25 +80,16 @@
     <Compile Include="Form_Login.Designer.cs">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_PilFilm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_PilFilm.Designer.cs">
-      <DependentUpon>Form_PilFilm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BackgroundForm.resx">
-      <DependentUpon>BackgroundForm.cs</DependentUpon>
+    <EmbeddedResource Include="FormPembayaran.resx">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Film.resx">
       <DependentUpon>Form_Film.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_PilFilm.resx">
-      <DependentUpon>Form_PilFilm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

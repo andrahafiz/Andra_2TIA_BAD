@@ -66,10 +66,14 @@ namespace Project_UTS_v1
             if(tbusername.Text=="Username" || tbpass.Text== "Password" || tbpass.Text == "" || tbusername.Text=="")
             {
                 MessageBox.Show("Silahkan penuhi data anda");
-            }else { 
-                Form_PilFilm formfilm = new Form_PilFilm();
+            }else if(tbusername.Text=="Admin" && tbpass.Text=="Admin") { 
+                Form_Film formfilm = new Form_Film();
                 formfilm.Show();
                 this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Username atau Password anda salah", "Gagal", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         }
 

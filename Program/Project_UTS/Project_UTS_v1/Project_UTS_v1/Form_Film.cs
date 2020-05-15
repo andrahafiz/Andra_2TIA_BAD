@@ -25,7 +25,10 @@ namespace Project_UTS_v1
             InitializeComponent();
             cb_jmlorang.Text = "1";
            
-            kontentfilm.Show();   
+            kontentfilm.Show();
+            kontentbangku_bp.Hide();
+            kontentbangku_eg.Hide();
+            kontentbangku_ff.Hide();
         }
 
 
@@ -62,9 +65,15 @@ namespace Project_UTS_v1
         //untuk menu bangku
         private void btnbangku_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        void viewbangku()
+        {
             navigasi(false, true);
-            kontentbangku_eg.Show();
-            kontentfilm.Hide();
+            btnbangku.Enabled = true;
+            
+            //kontentfilm.Hide();
         }
 
 
@@ -124,6 +133,7 @@ namespace Project_UTS_v1
         int totalbangku_eg;
         int totalbangku_ff;
         int totalbangku_bp;
+        int inc = 0;
         private void cekbangku(object sender, EventArgs e) 
         {
             Button button = (Button)sender;
@@ -160,28 +170,63 @@ namespace Project_UTS_v1
                       
                         a = new Bangku(nobangku, tbPengunjung.Text, judulfilm);
                         if(judulfilm.Equals("Avengers - End Game")){
+                        
                             totalbangku_eg += 1;
                             Film_EndGame.Add(a.Seat, a);
-                            Console.WriteLine("Total Bangku EG " + totalbangku_eg + "A");
-                        }else if(judulfilm.Equals("Black Pather")){
+                            inc++;
+                            if(inc == int.Parse(cb_jmlorang.Text))
+                            {
+                                button2.Enabled = true;
+                            }
+                        
+
+                        //Console.WriteLine("Total Bangku EG " + totalbangku_eg + "A");
+                    }
+                    else if(judulfilm.Equals("Black Pather")){
+                       
                             totalbangku_bp += 1;
                             Film_BP.Add(a.Seat, a);
-                            Console.WriteLine("Total Bangku BP" + totalbangku_bp + "A");
-                        }else if (judulfilm.Equals("Fast and Furious 8")){
+                      
+                        inc++;
+                        if (inc == int.Parse(cb_jmlorang.Text))
+                        {
+                            button6.Enabled = true;
+                        }
+                     
+
+                        //Console.WriteLine("Total Bangku BP" + totalbangku_bp + "A");
+                    }
+                    else if (judulfilm.Equals("Fast and Furious 8")){
+                        
                             totalbangku_ff += 1;
                             Film_FF.Add(a.Seat, a);
-                            Console.WriteLine("Total Bangku FF" + totalbangku_ff + "A");
-                        }else{
+                       
+                        inc++;
+                        if (inc == int.Parse(cb_jmlorang.Text))
+                        {
+                            button1.Enabled = true;
+                        }
+                        
+                        //Console.WriteLine("Total Bangku FF" + totalbangku_ff + "A");
+                    }
+                    else{
                             MessageBox.Show("Fatal Error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
 
 
                         a.change(button);
                     }else{
-                        if (MessageBox.Show("Jumlah bangku berlebih, Kembali ke halaman pilih Film?", "warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
-                        {
-                            backtofilm();
-                        }
+                    //if (inc == int.Parse(cb_jmlorang.Text))
+                    //{
+                    //    if (MessageBox.Show("Lakukan Pembayaran?", "warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    //    {
+                    //        FormPembayaran frmpbyr = new FormPembayaran(tbPengunjung.Text, int.Parse(cb_jmlorang.Text));
+                    //        frmpbyr.Show();
+                            
+                    //    }
+                    //}else{
+                    //    MessageBox.Show("Anda belum dapat melakukan pembayaran", "warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    //}
                     }
                 }
             //}else {}
@@ -189,6 +234,10 @@ namespace Project_UTS_v1
 
         void backtofilm()
         {
+            btnbangku.Enabled = false;
+            button1.Enabled = false;
+            button2.Enabled = false;
+            button6.Enabled = false;
             kontentfilm.Show();
             kontentbangku_ff.Hide();
             kontentbangku_eg.Hide();
@@ -196,6 +245,7 @@ namespace Project_UTS_v1
             tbPengunjung.Text = "";
             cb_jmlorang.Text = "1";
             i = 0;
+            inc = 0;
             navigasi(true, false);
             if(Film_EndGame.Count == 54)
             {
@@ -222,6 +272,8 @@ namespace Project_UTS_v1
             //    MessageBox.Show("Studo Film Sudah Penuh", "Film Penuh", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             //}
             //else {
+            if (tbPengunjung.Text != "") { 
+                viewbangku();
                 i = int.Parse(cb_jmlorang.Text);
                 Button inibutton = (Button)sender;
                 judulfilm = inibutton.Text;
@@ -237,9 +289,10 @@ namespace Project_UTS_v1
                         }else {
                             MessageBox.Show(judulfilm);
                             kontentfilm.Hide();
-                            kontentbangku_eg.Hide();
+                    kontentbangku_ff.Show();
+                    kontentbangku_eg.Hide();
                             kontentbangku_bp.Hide();
-                            kontentbangku_ff.Show();
+                            
                         }
                     
                 }
@@ -265,15 +318,20 @@ namespace Project_UTS_v1
                         }else{
                             MessageBox.Show(judulfilm);
                             kontentfilm.Hide();
-                            kontentbangku_eg.Hide();
-                            kontentbangku_bp.Show();
+                    kontentbangku_bp.Show();
+                    kontentbangku_eg.Hide();
+                            
                             kontentbangku_ff.Hide();
                         }
                     
                 }
-
-                
             }
+            else
+            {
+                MessageBox.Show("Nama harus diisi", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
         //}
 
       
@@ -291,17 +349,7 @@ namespace Project_UTS_v1
            
         }
 
-        private void my_timer_Tick(object sender, EventArgs e)
-        {
-            if (frmSrl == 1)
-            {
-                frmSrl++;
-                kontentfilm.Show();
-            }
-            else
-                frmSrl = 1;
-        }
-        int frmSrl = 1;
+      
 
         private void backtofilm(object sender, EventArgs e)
         {
@@ -311,6 +359,26 @@ namespace Project_UTS_v1
         private void b(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bayar(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Lakukan Pembayaran", "Pembayaran", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                button6.Enabled = false;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                FormPembayaran frmpbyr = new FormPembayaran(tbPengunjung.Text, int.Parse(cb_jmlorang.Text));
+                frmpbyr.Show();
+                
+
+                //backtofilm();
+            }
         }
     }
 }

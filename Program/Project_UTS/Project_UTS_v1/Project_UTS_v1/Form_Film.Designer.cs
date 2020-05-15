@@ -34,6 +34,7 @@
             this.btnminimiza = new System.Windows.Forms.Button();
             this.btnclose = new System.Windows.Forms.Button();
             this.kontentbangku_eg = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -94,6 +95,7 @@
             this.btn_eg_F2 = new System.Windows.Forms.Button();
             this.btn_eg_F1 = new System.Windows.Forms.Button();
             this.kontentbangku_bp = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
@@ -154,6 +156,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.kontentbangku_ff = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
@@ -297,6 +300,7 @@
             // 
             this.kontentbangku_eg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(168)))), ((int)(((byte)(120)))));
             this.kontentbangku_eg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.kontentbangku_eg.Controls.Add(this.button2);
             this.kontentbangku_eg.Controls.Add(this.button3);
             this.kontentbangku_eg.Controls.Add(this.label2);
             this.kontentbangku_eg.Controls.Add(this.panel5);
@@ -358,8 +362,24 @@
             this.kontentbangku_eg.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kontentbangku_eg.Location = new System.Drawing.Point(370, 38);
             this.kontentbangku_eg.Name = "kontentbangku_eg";
-            this.kontentbangku_eg.Size = new System.Drawing.Size(830, 662);
+            this.kontentbangku_eg.Size = new System.Drawing.Size(830, 705);
             this.kontentbangku_eg.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(41)))), ((int)(((byte)(5)))));
+            this.button2.Enabled = false;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(317, 627);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(182, 54);
+            this.button2.TabIndex = 72;
+            this.button2.Text = "Bayar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.bayar);
             // 
             // button3
             // 
@@ -1289,6 +1309,7 @@
             // 
             this.kontentbangku_bp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(168)))), ((int)(((byte)(120)))));
             this.kontentbangku_bp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.kontentbangku_bp.Controls.Add(this.button6);
             this.kontentbangku_bp.Controls.Add(this.button4);
             this.kontentbangku_bp.Controls.Add(this.panel7);
             this.kontentbangku_bp.Controls.Add(this.btn_bp_A8);
@@ -1350,8 +1371,24 @@
             this.kontentbangku_bp.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kontentbangku_bp.Location = new System.Drawing.Point(370, 38);
             this.kontentbangku_bp.Name = "kontentbangku_bp";
-            this.kontentbangku_bp.Size = new System.Drawing.Size(830, 662);
+            this.kontentbangku_bp.Size = new System.Drawing.Size(830, 705);
             this.kontentbangku_bp.TabIndex = 67;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(41)))), ((int)(((byte)(5)))));
+            this.button6.Enabled = false;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(320, 627);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(182, 54);
+            this.button6.TabIndex = 72;
+            this.button6.Text = "Bayar";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.bayar);
             // 
             // button4
             // 
@@ -2281,6 +2318,7 @@
             // 
             this.kontentbangku_ff.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(168)))), ((int)(((byte)(120)))));
             this.kontentbangku_ff.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.kontentbangku_ff.Controls.Add(this.button1);
             this.kontentbangku_ff.Controls.Add(this.button5);
             this.kontentbangku_ff.Controls.Add(this.panel8);
             this.kontentbangku_ff.Controls.Add(this.btn_ff_A8);
@@ -2342,8 +2380,24 @@
             this.kontentbangku_ff.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kontentbangku_ff.Location = new System.Drawing.Point(370, 38);
             this.kontentbangku_ff.Name = "kontentbangku_ff";
-            this.kontentbangku_ff.Size = new System.Drawing.Size(830, 662);
+            this.kontentbangku_ff.Size = new System.Drawing.Size(830, 705);
             this.kontentbangku_ff.TabIndex = 68;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(41)))), ((int)(((byte)(5)))));
+            this.button1.Enabled = false;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(317, 627);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 54);
+            this.button1.TabIndex = 71;
+            this.button1.Text = "Bayar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.bayar);
             // 
             // button5
             // 
@@ -3254,7 +3308,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(72)))), ((int)(((byte)(24)))));
-            this.label12.Location = new System.Drawing.Point(202, 44);
+            this.label12.Location = new System.Drawing.Point(225, 46);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(393, 46);
             this.label12.TabIndex = 9;
@@ -3272,9 +3326,9 @@
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(41)))), ((int)(((byte)(5)))));
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(358, 0);
+            this.panel13.Location = new System.Drawing.Point(365, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(12, 700);
+            this.panel13.Size = new System.Drawing.Size(5, 743);
             this.panel13.TabIndex = 1;
             // 
             // menu
@@ -3289,7 +3343,7 @@
             this.menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(370, 700);
+            this.menu.Size = new System.Drawing.Size(370, 743);
             this.menu.TabIndex = 0;
             // 
             // panel4
@@ -3312,6 +3366,7 @@
             // btnbangku
             // 
             this.btnbangku.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(168)))), ((int)(((byte)(120)))));
+            this.btnbangku.Enabled = false;
             this.btnbangku.FlatAppearance.BorderSize = 0;
             this.btnbangku.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbangku.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -3356,7 +3411,7 @@
             this.kontentfilm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kontentfilm.Location = new System.Drawing.Point(370, 38);
             this.kontentfilm.Name = "kontentfilm";
-            this.kontentfilm.Size = new System.Drawing.Size(830, 662);
+            this.kontentfilm.Size = new System.Drawing.Size(830, 705);
             this.kontentfilm.TabIndex = 4;
             // 
             // groupBox2
@@ -3385,9 +3440,7 @@
             "7",
             "8",
             "9",
-            "10",
-            "20",
-            "40"});
+            "10"});
             this.cb_jmlorang.Location = new System.Drawing.Point(483, 36);
             this.cb_jmlorang.Name = "cb_jmlorang";
             this.cb_jmlorang.Size = new System.Drawing.Size(121, 24);
@@ -3552,18 +3605,18 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1200, 700);
+            this.panel2.Size = new System.Drawing.Size(1200, 743);
             this.panel2.TabIndex = 70;
             // 
             // Form_Film
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.ClientSize = new System.Drawing.Size(1200, 743);
             this.Controls.Add(this.kontentfilm);
+            this.Controls.Add(this.kontentbangku_bp);
             this.Controls.Add(this.kontentbangku_ff);
             this.Controls.Add(this.kontentbangku_eg);
-            this.Controls.Add(this.kontentbangku_bp);
             this.Controls.Add(this.toolbar);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.panel2);
@@ -3805,5 +3858,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button1;
     }
 }
