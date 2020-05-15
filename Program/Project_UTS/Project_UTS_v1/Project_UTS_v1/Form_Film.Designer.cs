@@ -1352,7 +1352,6 @@
             this.kontentbangku_bp.Name = "kontentbangku_bp";
             this.kontentbangku_bp.Size = new System.Drawing.Size(830, 662);
             this.kontentbangku_bp.TabIndex = 67;
-            this.kontentbangku_bp.Paint += new System.Windows.Forms.PaintEventHandler(this.b);
             // 
             // button4
             // 
@@ -3273,9 +3272,9 @@
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(41)))), ((int)(((byte)(5)))));
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(360, 0);
+            this.panel13.Location = new System.Drawing.Point(358, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(10, 700);
+            this.panel13.Size = new System.Drawing.Size(12, 700);
             this.panel13.TabIndex = 1;
             // 
             // menu
@@ -3321,7 +3320,7 @@
             this.btnbangku.Location = new System.Drawing.Point(3, 328);
             this.btnbangku.Name = "btnbangku";
             this.btnbangku.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnbangku.Size = new System.Drawing.Size(369, 96);
+            this.btnbangku.Size = new System.Drawing.Size(361, 96);
             this.btnbangku.TabIndex = 0;
             this.btnbangku.Text = "Bangku";
             this.btnbangku.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3339,7 +3338,7 @@
             this.btnfilm.Image = ((System.Drawing.Image)(resources.GetObject("btnfilm.Image")));
             this.btnfilm.Location = new System.Drawing.Point(3, 226);
             this.btnfilm.Name = "btnfilm";
-            this.btnfilm.Size = new System.Drawing.Size(369, 96);
+            this.btnfilm.Size = new System.Drawing.Size(361, 96);
             this.btnfilm.TabIndex = 0;
             this.btnfilm.Text = "Film";
             this.btnfilm.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;

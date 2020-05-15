@@ -204,12 +204,12 @@ namespace Project_UTS_v1
             }
             if (Film_BP.Count == 54)
             {
-                pictureBox1.Image = Image.FromFile("D:\\2 TI A\\Andra_2TIA_BAD\\Program\\Project_UTS\\Project_UTS_v1\\Project_UTS_v1\\img\\poster_blackpanther_full.jpg");
+                pictureBox2.Image = Image.FromFile("D:\\2 TI A\\Andra_2TIA_BAD\\Program\\Project_UTS\\Project_UTS_v1\\Project_UTS_v1\\img\\poster_blackpanther_full.jpg");
                 btnBP.Enabled = false;
             }
             if (Film_FF.Count == 54)
             {
-                pictureBox1.Image = Image.FromFile("D:\\2 TI A\\Andra_2TIA_BAD\\Program\\Project_UTS\\Project_UTS_v1\\Project_UTS_v1\\img\\poster_ff8_full.jpg");
+                pictureBox3.Image = Image.FromFile("D:\\2 TI A\\Andra_2TIA_BAD\\Program\\Project_UTS\\Project_UTS_v1\\Project_UTS_v1\\img\\poster_ff8_full.jpg");
                 btnFF.Enabled = false;
             }
         }
