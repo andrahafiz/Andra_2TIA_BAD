@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pertemuan10_WrapControl", "Pertemuan10_WrapControl\Pertemuan10_WrapControl.csproj", "{EF3D6B3D-5224-4228-83FD-250E596E666B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF3D6B3D-5224-4228-83FD-250E596E666B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3D6B3D-5224-4228-83FD-250E596E666B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3D6B3D-5224-4228-83FD-250E596E666B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3D6B3D-5224-4228-83FD-250E596E666B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {075FE202-6190-4B29-A7C0-397C63235BA1}
+	EndGlobalSection
+EndGlobal

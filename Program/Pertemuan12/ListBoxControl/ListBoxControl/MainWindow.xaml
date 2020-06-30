@@ -1,0 +1,16 @@
+﻿<Window x:Class="ListBoxControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListBoxControl"
+        mc:Ignorable="d"
+        Title="ListControl1" Height="120" Width="200">
+    <Grid Margin="10">
+        <ListBox>
+            <ListBoxItem>Contoh ListBox1</ListBoxItem>
+            <ListBoxItem>Contoh ListBox2</ListBoxItem>
+            <ListBoxItem>Contoh ListBox3</ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>

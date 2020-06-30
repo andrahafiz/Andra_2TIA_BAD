@@ -1,0 +1,9 @@
+﻿<Application x:Class="BelajarControl1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BelajarControl1"
+             StartupUri="WebBrowserControl.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

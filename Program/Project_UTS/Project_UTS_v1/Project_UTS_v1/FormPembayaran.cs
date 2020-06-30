@@ -118,5 +118,10 @@ namespace Project_UTS_v1
         {
 
         }
+
+        private void toolbar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

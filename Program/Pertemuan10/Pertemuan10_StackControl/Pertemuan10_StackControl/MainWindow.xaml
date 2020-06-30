@@ -1,0 +1,17 @@
+﻿<Window x:Class="Pertemuan10_StackControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pertemuan10_StackControl"
+        mc:Ignorable="d"
+        Title="StackPanel" Height="150" Width="300">
+    <StackPanel>
+        <Button>Tombol 1</Button>
+        <Button>Tombol 2</Button>
+        <Button>Tombol 3</Button>
+        <Button>Tombol 4</Button>
+        <Button>Tombol 5</Button>
+        <Button>Tombol 6</Button>
+    </StackPanel>
+</Window>

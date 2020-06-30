@@ -285,7 +285,7 @@ namespace Project_UTS_v1
                    
                         if (totalbangku_ff + int.Parse(cb_jmlorang.Text) > 54)
                         {
-                            MessageBox.Show("Jumlah pengungjung memenuhi kapastia", "Film Penuh", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                            MessageBox.Show("Maaf, jumlah bangku yang anda ingin kan tidak mencukupi, bangku tinggal tersisa " + (54 -Film_FF.Count) +" bangku lagi", "Film Penuh", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                         }else {
                             MessageBox.Show(judulfilm);
                             kontentfilm.Hide();
